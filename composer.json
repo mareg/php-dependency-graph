@@ -1,9 +1,9 @@
 {
-    "name": "plasmaconduit/dependency-graph",
+    "name": "mareg/dependency-graph",
     "require": {
-        "plasmaconduit/map":    "0.1.*",
-        "plasmaconduit/option": "0.2.*",
-        "plasmaconduit/either": "0.2.*"
+        "mareg/map":    "0.1.*",
+        "mareg/option": "0.2.*",
+        "mareg/either": "0.2.*"
     },
     "config": {
         "bin-dir": "bin"
