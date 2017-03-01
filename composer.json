@@ -1,0 +1,17 @@
+{
+    "name": "plasmaconduit/dependency-graph",
+    "require": {
+        "plasmaconduit/map":    "0.1.*",
+        "plasmaconduit/option": "0.2.*",
+        "plasmaconduit/either": "0.2.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
