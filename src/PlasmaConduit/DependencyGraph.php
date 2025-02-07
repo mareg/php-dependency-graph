@@ -47,7 +47,7 @@ class DependencyGraph {
             }
             return new Right(true);
         } else {
-            return new Left("Refusing to add circular dependency.");
+            throw new Exception("Refusing to add circular dependency.");
         }
     }
 
